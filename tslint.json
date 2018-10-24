@@ -1,6 +1,6 @@
 {
   "extends": ["tslint-plugin-prettier"],
   "rules": {
-    "prettier": [true, "configs/.prettierrc", { "editorconfig": false }]
+    "prettier": [true, null, { "printWidth": 1, "parser": "json4" }]
   }
 }
